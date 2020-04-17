@@ -13,7 +13,7 @@ spring:
 #mybaits
 mybatis:
   mapper-locations:
-  - classpath:mapper/*/*.xml,classpath:mapper/*/*/*.xml
+   classpath:mapper/*/*.xml,classpath:mapper/*/*/*.xml
 logging:
   level: 
     org.service.admin.mapper:debug
